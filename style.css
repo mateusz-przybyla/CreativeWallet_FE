@@ -9,6 +9,10 @@
   color: rgb(255, 255, 255, 0.623);
 }
 
+.bg-opacity-60 {
+  background: rgba(223, 202, 158, 0.6);
+}
+
 @media (min-width: 992px) {
   .w-lg-50 {
     width: 50% !important;
