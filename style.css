@@ -1,0 +1,16 @@
+.custom-bg {
+  min-height: 98vh;
+  background-image: url("./assets/images/stacked-stones-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line {
+  color: rgb(255, 255, 255, 0.623);
+}
+
+@media (min-width: 992px) {
+  .w-lg-75 {
+    width: 75% !important;
+  }
+}
