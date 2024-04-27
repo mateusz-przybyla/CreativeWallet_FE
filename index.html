@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="p-2">
-    <div class="custom-bg rounded-top-4 pt-2">
+  <body>
+    <div class="custom-bg pt-2">
       <header>
         <nav
           class="navbar navbar-expand-md navbar-dark bg-dark w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-3"
@@ -72,8 +72,8 @@
           </div>
         </nav>
       </header>
-      <main>
-        <div class="container my-5 w-lg-75 px-2 px-sm-0">
+      <main class="position-relative">
+        <div class="container my-5 w-lg-75 px-2 px-sm-0 pb-5">
           <div class="p-5 text-center bg-opacity-60 rounded-3">
             <img
               src="./assets/svg/graph-up-arrow.svg"
@@ -99,7 +99,31 @@
           </div>
         </div>
       </main>
-      <footer></footer>
+      <footer>
+        <div class="container custom-position">
+          <div
+            class="row d-flex justify-content-between align-items-center bg-opacity-70 w-lg-75 mx-lg-auto rounded-top-3"
+          >
+            <div
+              class="col-md-4 d-flex justify-content-center justify-content-md-start"
+            >
+              <p class="my-2">© 2024 CreativeWallet</p>
+            </div>
+            <div
+              class="col-md-4 d-flex justify-content-center justify-content-md-end align-items-center"
+            >
+              <p class="my-2">Author: Mateusz Przybyła</p>
+              <a class="text-body-secondary" href="#"
+                ><img
+                  src="./assets/svg/github.svg"
+                  alt="graph-up-arrow"
+                  height="20"
+                  class="ms-3 my-1"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
