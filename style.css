@@ -1,0 +1,36 @@
+.custom-bg {
+  min-height: 100vh;
+  background-image: url("./assets/images/stacked-stones-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line {
+  color: rgb(255, 255, 255, 0.623);
+}
+
+.bg-opacity-60 {
+  background: rgba(223, 202, 158, 0.6);
+}
+
+.bg-opacity-70 {
+  background: rgba(228, 133, 101, 0.7);
+}
+
+@media (min-width: 576px) {
+  .custom-position {
+    position: absolute;
+    min-width: 100%;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+
+  .w-lg-75 {
+    width: 75% !important;
+  }
+}
