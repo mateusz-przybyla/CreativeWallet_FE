@@ -21,6 +21,19 @@
   background: rgba(228, 133, 101, 0.7);
 }
 
+.bg-login {
+  min-height: 100vh;
+  background-color: #fbf3d5;
+}
+
+.bg-main-login {
+  background-color: #efbc9b;
+}
+
+.bg-footer-login {
+  background-color: #9cafaa;
+}
+
 @media (min-width: 992px) {
   .w-lg-50 {
     width: 50% !important;
