@@ -70,26 +70,49 @@
               />
               <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-              <div class="form-floating mb-2">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                />
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="floatingPassword"
-                  placeholder="Password"
-                />
-                <label for="floatingPassword">Password</label>
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/envelope.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating mb-2 w-100">
+                  <input
+                    type="email"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
               </div>
 
-              <div class="checkbox mb-3 pt-3">
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-0 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/lock-fill.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating w-100">
+                  <input
+                    type="password"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+              </div>
+
+              <div class="checkbox my-3">
                 <label>
                   <input type="checkbox" value="remember-me" /> Remember me
                 </label>
