@@ -6,8 +6,11 @@
   color: rgb(255, 255, 255, 0.623);
 }
 
-.bg-home {
+.h-100 {
   min-height: 100vh;
+}
+
+.bg-home {
   background-image: url("./assets/images/stacked-stones-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,20 +20,15 @@
   background-color: rgba(239, 188, 155, 0.6);
 }
 
-.bg-footer-home {
-  background-color: rgb(156, 175, 170);
-}
-
-.bg-login {
-  min-height: 100vh;
+.bg-cream {
   background-color: #fbf3d5;
 }
 
-.bg-main-login {
+.bg-light-red {
   background-color: #efbc9b;
 }
 
-.bg-footer-login {
+.bg-grey-blue {
   background-color: #9cafaa;
 }
 
