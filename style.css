@@ -14,11 +14,11 @@
 }
 
 .bg-main-home {
-  background: rgba(239, 188, 155, 0.6);
+  background-color: rgba(239, 188, 155, 0.6);
 }
 
 .bg-footer-home {
-  background: rgb(156, 175, 170);
+  background-color: rgb(156, 175, 170);
 }
 
 .bg-login {
