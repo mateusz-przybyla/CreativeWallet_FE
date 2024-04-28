@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <div class="bg-login pt-2 position-relative">
+    <div class="bg-cream h-100 pt-2 position-relative">
       <header>
         <nav
           class="navbar navbar-expand-md navbar-dark bg-dark w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-3"
@@ -60,7 +60,7 @@
       </header>
       <main class="pb-75">
         <div class="container my-5 w-lg-75 px-2 px-sm-0">
-          <div class="p-5 text-center bg-main-login rounded-3 form-signin">
+          <div class="p-5 text-center bg-light-red rounded-3 form-signin">
             <form class="w-lg-50 mx-auto">
               <img
                 class="mb-3"
@@ -69,42 +69,86 @@
                 height="70"
               />
               <h1 class="h3 mb-3 fw-normal">Sign up</h1>
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/person-check.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating mb-2 w-100">
+                  <input
+                    type="firstname"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingFirstname"
+                    placeholder="First name"
+                  />
+                  <label for="floatingFirstname">First name</label>
+                </div>
+              </div>
 
-              <div class="form-floating mb-2">
-                <input
-                  type="firstname"
-                  class="form-control"
-                  id="floatingFirstname"
-                  placeholder="First name"
-                />
-                <label for="floatingFirstname">First name</label>
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/person-fill-check.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating mb-2 w-100">
+                  <input
+                    type="surname"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingSurname"
+                    placeholder="Surname"
+                  />
+                  <label for="floatingSurname">Surname</label>
+                </div>
               </div>
-              <div class="form-floating mb-2">
-                <input
-                  type="surname"
-                  class="form-control"
-                  id="floatingSurname"
-                  placeholder="Surname"
-                />
-                <label for="floatingSurname">Surname</label>
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/envelope.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating mb-2 w-100">
+                  <input
+                    type="email"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingEmail"
+                    placeholder="Email"
+                  />
+                  <label for="floatingEmail">Email address</label>
+                </div>
               </div>
-              <div class="form-floating mb-2">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingEmail"
-                  placeholder="Email"
-                />
-                <label for="floatingEmail">Email address</label>
-              </div>
-              <div class="form-floating mb-4">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="floatingPassword"
-                  placeholder="Password"
-                />
-                <label for="floatingPassword">Password</label>
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-4 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/lock-fill.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating mb-4 w-100">
+                  <input
+                    type="password"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
               </div>
 
               <button class="w-100 btn btn-lg btn-success" type="submit">
@@ -115,9 +159,7 @@
         </div>
       </main>
       <footer class="position-absolute w-100 bottom-0">
-        <div
-          class="bg-footer-login w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-top-3"
-        >
+        <div class="bg-grey-blue w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-top-3">
           <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
               <div
