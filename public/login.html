@@ -19,7 +19,7 @@
       <header>
         <nav
           class="navbar navbar-expand-md navbar-dark bg-dark w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-3"
-          aria-label="Toggle navigation"
+          aria-label="toggle navigation"
         >
           <div class="container">
             <a class="navbar-brand" href="#">
@@ -68,28 +68,51 @@
                 alt="box-arrow-in-right"
                 height="70"
               />
-              <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+              <h1 class="h3 mb-3">Please sign in</h1>
 
-              <div class="form-floating mb-2">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                />
-                <label for="floatingInput">Email address</label>
-              </div>
-              <div class="form-floating">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="floatingPassword"
-                  placeholder="Password"
-                />
-                <label for="floatingPassword">Password</label>
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/envelope.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating mb-2 w-100">
+                  <input
+                    type="email"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
               </div>
 
-              <div class="checkbox mb-3 pt-3">
+              <div class="d-flex">
+                <figure
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-0 rounded-start-2 bg-grey-blue"
+                >
+                  <img
+                    src="../assets/svg/lock-fill.svg"
+                    alt="person-fill"
+                    height="25"
+                  />
+                </figure>
+                <div class="form-floating w-100">
+                  <input
+                    type="password"
+                    class="form-control rounded-0 rounded-end-2"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+              </div>
+
+              <div class="checkbox my-3">
                 <label>
                   <input type="checkbox" value="remember-me" /> Remember me
                 </label>
@@ -97,6 +120,12 @@
               <button class="w-100 btn btn-lg btn-success" type="submit">
                 Sign in
               </button>
+              <p class="pt-3 my-0">
+                Already have an account?
+                <a href="./register.html" class="text-decoration-none fw-500"
+                  >Sign up</a
+                >
+              </p>
             </form>
           </div>
         </div>
