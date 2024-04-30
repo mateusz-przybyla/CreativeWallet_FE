@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../style.css" />
   </head>
 
-  <body class="position-relative">
+  <body>
     <div class="h-100 bg-cream pt-2">
       <header>
         <nav
@@ -58,18 +58,10 @@
               <hr class="line mt-3" />
               <ul class="navbar-nav mb-2 mb-md-0">
                 <li class="nav-item mb-2 mb-md-0">
-                  <a
-                    class="nav-link"
-                    aria-current="page"
-                    href="./public/login.html"
-                    >Main page</a
-                  >
+                  <a class="nav-link" aria-current="page" href="#">Main page</a>
                 </li>
                 <li class="nav-item mb-2 mb-md-0">
-                  <a
-                    class="nav-link"
-                    aria-current="page"
-                    href="./public/login.html"
+                  <a class="nav-link" aria-current="page" href="#"
                     >Add income</a
                   >
                 </li>
@@ -77,31 +69,20 @@
                   <a
                     class="nav-link active"
                     aria-current="page"
-                    href="./public/login.html"
+                    href="./add-expense.html"
                     >Add expense</a
                   >
                 </li>
                 <li class="nav-item mb-2 mb-md-0">
-                  <a
-                    class="nav-link"
-                    aria-current="page"
-                    href="./public/login.html"
+                  <a class="nav-link" aria-current="page" href="#"
                     >Show balance</a
                   >
                 </li>
                 <li class="nav-item mb-2 mb-md-0">
-                  <a
-                    class="nav-link"
-                    aria-current="page"
-                    href="./public/login.html"
-                    >Settings</a
-                  >
+                  <a class="nav-link" aria-current="page" href="#">Settings</a>
                 </li>
                 <li class="nav-item mb-2 mb-md-0">
-                  <a
-                    class="nav-link"
-                    aria-current="page"
-                    href="./public/login.html"
+                  <a class="nav-link" aria-current="page" href="../index.html"
                     >Logout</a
                   >
                 </li>
@@ -110,7 +91,7 @@
           </div>
         </nav>
       </header>
-      <main class="pb-60">
+      <main>
         <div class="container my-5 w-lg-75 px-2 px-sm-0">
           <div class="p-5 bg-light-red rounded-3">
             <div class="text-center">
@@ -152,7 +133,6 @@
                     />
                   </div>
                 </div>
-
                 <div class="mb-3">
                   <label for="expense-payment" class="form-label"
                     >Method payment</label
@@ -160,8 +140,8 @@
                   <div class="input-group">
                     <span class="input-group-text bg-grey-blue rounded-end-0"
                       ><img
-                        src="../assets/svg/tags-fill.svg"
-                        alt="tags-fill"
+                        src="../assets/svg/credit-card.svg"
+                        alt="credit-card"
                         width="25"
                     /></span>
                     <select
@@ -176,10 +156,45 @@
                     </select>
                   </div>
                 </div>
-
+                <div class="mb-3">
+                  <label for="expense-payment" class="form-label"
+                    >Category</label
+                  >
+                  <div class="input-group">
+                    <span class="input-group-text bg-grey-blue rounded-end-0"
+                      ><img
+                        src="../assets/svg/tags-fill.svg"
+                        alt="tags-fill"
+                        width="25"
+                    /></span>
+                    <select
+                      class="form-select"
+                      id="expense-payment"
+                      required=""
+                    >
+                      <option value="">Choose...</option>
+                      <option>Food</option>
+                      <option>House</option>
+                      <option>Transport</option>
+                      <option>Telecommunications</option>
+                      <option>Health care</option>
+                      <option>Clothing</option>
+                      <option>Hygiene</option>
+                      <option>Children</option>
+                      <option>Entertainment</option>
+                      <option>Trip</option>
+                      <option>Training courses</option>
+                      <option>Books</option>
+                      <option>Debt repayment</option>
+                      <option>Pension</option>
+                      <option>Donation</option>
+                      <option>Other expenses</option>
+                    </select>
+                  </div>
+                </div>
                 <div class="mb-4">
-                  <label for="expense-category" class="form-label"
-                    >Category (Optional)</label
+                  <label for="expense-comment" class="form-label"
+                    >Comment (Optional)</label
                   >
                   <div class="input-group">
                     <span class="input-group-text bg-grey-blue rounded-end-0"
@@ -190,7 +205,7 @@
                     /></span>
                     <textarea
                       class="form-control"
-                      id="expense-category"
+                      id="expense-comment"
                       rows="2"
                     ></textarea>
                   </div>
@@ -213,7 +228,7 @@
           </div>
         </div>
       </main>
-      <footer class="position-absolute w-100 bottom-0">
+      <footer>
         <div class="bg-grey-blue w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-top-3">
           <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
