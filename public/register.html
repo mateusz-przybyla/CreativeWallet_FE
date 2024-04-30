@@ -13,13 +13,12 @@
     />
     <link rel="stylesheet" href="../style.css" />
   </head>
-
   <body>
     <div class="bg-cream h-100 pt-2 position-relative">
       <header>
         <nav
           class="navbar navbar-expand-md navbar-dark bg-dark w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-3"
-          aria-label="Toggle navigation"
+          aria-label="toggle navigation"
         >
           <div class="container">
             <a class="navbar-brand" href="#">
@@ -60,22 +59,22 @@
       </header>
       <main class="pb-75">
         <div class="container my-5 w-lg-75 px-2 px-sm-0">
-          <div class="p-5 text-center bg-light-red rounded-3 form-signin">
+          <div class="shadow p-5 text-center bg-light-red rounded-3">
             <form class="w-lg-50 mx-auto">
               <img
                 class="mb-3"
                 src="../assets/svg/person-plus-fill.svg"
-                alt="box-arrow-in-right"
+                alt="person-plus-fill"
                 height="70"
               />
               <h1 class="h3 mb-3">Sign up</h1>
               <div class="d-flex">
                 <figure
-                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue border"
                 >
                   <img
                     src="../assets/svg/person-check.svg"
-                    alt="person-fill"
+                    alt="person-chec"
                     height="25"
                   />
                 </figure>
@@ -83,16 +82,16 @@
                   <input
                     type="text"
                     class="form-control rounded-0 rounded-end-2"
-                    id="floatingFirstname"
+                    id="register-fname"
                     placeholder="First name"
+                    required=""
                   />
-                  <label for="floatingFirstname">First name</label>
+                  <label for="register-fname">First name</label>
                 </div>
               </div>
-
               <div class="d-flex">
                 <figure
-                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue border"
                 >
                   <img
                     src="../assets/svg/person-fill-check.svg"
@@ -104,15 +103,16 @@
                   <input
                     type="text"
                     class="form-control rounded-0 rounded-end-2"
-                    id="floatingSurname"
+                    id="register-sname"
                     placeholder="Surname"
+                    required=""
                   />
-                  <label for="floatingSurname">Surname</label>
+                  <label for="register-sname">Surname</label>
                 </div>
               </div>
               <div class="d-flex">
                 <figure
-                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue"
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-2 rounded-start-2 bg-grey-blue border"
                 >
                   <img
                     src="../assets/svg/envelope.svg"
@@ -124,19 +124,20 @@
                   <input
                     type="email"
                     class="form-control rounded-0 rounded-end-2"
-                    id="floatingEmail"
+                    id="register-email"
                     placeholder="Email"
+                    required=""
                   />
-                  <label for="floatingEmail">Email address</label>
+                  <label for="register-email">Email address</label>
                 </div>
               </div>
               <div class="d-flex">
                 <figure
-                  class="d-flex align-items-center rounded-left-3 px-2 mb-4 rounded-start-2 bg-grey-blue"
+                  class="d-flex align-items-center rounded-left-3 px-2 mb-4 rounded-start-2 bg-grey-blue border"
                 >
                   <img
                     src="../assets/svg/lock-fill.svg"
-                    alt="person-fill"
+                    alt="lock-fill"
                     height="25"
                   />
                 </figure>
@@ -144,13 +145,13 @@
                   <input
                     type="password"
                     class="form-control rounded-0 rounded-end-2"
-                    id="floatingPassword"
+                    id="register-password"
                     placeholder="Password"
+                    required=""
                   />
-                  <label for="floatingPassword">Password</label>
+                  <label for="register-password">Password</label>
                 </div>
               </div>
-
               <button class="w-100 btn btn-lg btn-success" type="submit">
                 Sign up
               </button>
