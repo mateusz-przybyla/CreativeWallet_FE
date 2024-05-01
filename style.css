@@ -45,6 +45,11 @@
   width: 100%;
 }
 
+caption {
+  caption-side: top;
+  text-align: center;
+}
+
 @media (min-width: 992px) {
   .w-lg-50 {
     width: 50% !important;
