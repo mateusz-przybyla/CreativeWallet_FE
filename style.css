@@ -40,6 +40,16 @@
   background-color: #9cafaa;
 }
 
+#chartContainer {
+  height: 370px;
+  width: 100%;
+}
+
+caption {
+  caption-side: top;
+  text-align: center;
+}
+
 @media (min-width: 992px) {
   .w-lg-50 {
     width: 50% !important;
@@ -47,5 +57,12 @@
 
   .w-lg-75 {
     width: 75% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  #chartContainer {
+    height: 370px;
+    width: 50%;
   }
 }
