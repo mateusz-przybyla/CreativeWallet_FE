@@ -81,7 +81,7 @@
         </nav>
       </header>
       <main class="pb-75">
-        <div class="container my-5 w-lg-75 px-2 px-sm-0">
+        <section class="container my-5 w-lg-75 px-2 px-sm-0">
           <div class="shadow py-4 px-2 px-md-5 bg-light-red rounded-3">
             <div class="text-center">
               <h2 class="mb-3">Balance sheet</h2>
@@ -183,13 +183,41 @@
               </div>
             </div>
             <div class="text-center">
-              <p class="fs-5 mb-3">Balance sheet for the period:</p>
-              <p class="fs-5" id="changePeriod"></p>
-              <p class="fs-5" id="showDateRange"></p>
+              <div class="d-md-flex justify-content-center">
+                <p class="fs-5 mb-3 pe-2">Balance sheet for the period:</p>
+                <p class="fs-5" id="changePeriod">current month</p>
+              </div>
+
+              <p class="fs-5" id="showDateRange">01.04.2024 - today</p>
             </div>
           </div>
-        </div>
-        <div class="container my-5 w-lg-75 px-2 px-sm-0">
+        </section>
+        <section class="container my-5 w-lg-75 px-2 px-sm-0">
+          <div class="shadow py-4 px-2 px-md-5 bg-light-red rounded-3">
+            <div class="text-center">
+              <h3 class="mb-3 d-flex justify-content-center align-items-center">
+                <img
+                  class="me-2"
+                  src="../assets/svg/bookmark-check.svg"
+                  alt="bookmark-check"
+                  height="30"
+                />
+                Your score
+              </h3>
+              <hr class="" />
+            </div>
+            <div class="text-center">
+              <p class="fs-5 text-success" id="">
+                Congratulations! You manage your finances very well :)
+              </p>
+              <p class="fs-5 text-danger" id="">
+                Be carefull! You're getting into debt :(
+              </p>
+              <p class="lead fs-2">Balance: 0,00 zł</p>
+            </div>
+          </div>
+        </section>
+        <section class="container my-5 w-lg-75 px-2 px-sm-0">
           <div class="shadow py-4 px-2 px-md-5 bg-light-red rounded-3">
             <div class="row">
               <div class="col-lg-6">
@@ -284,17 +312,19 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="container my-5 w-lg-75 px-2 px-sm-0">
+        </section>
+        <section class="container my-5 w-lg-75 px-2 px-sm-0">
           <div class="shadow py-4 px-2 px-md-5 bg-white rounded-3">
             <div class="text-center mb-4">
               <h1 class="h3">Your expenses from the selected period</h1>
+              <hr class="" />
             </div>
             <div class="d-flex justify-content-center">
               <div id="chartContainer"></div>
             </div>
           </div>
-        </div>
+        </section>
+        <div id="scrollToTop"></div>
       </main>
       <footer class="position-absolute w-100 bottom-0">
         <div class="bg-grey-blue w-lg-75 px-lg-3 mx-2 mx-lg-auto rounded-top-3">

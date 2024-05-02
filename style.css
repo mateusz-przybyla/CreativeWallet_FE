@@ -58,6 +58,17 @@ caption {
   .w-lg-75 {
     width: 75% !important;
   }
+
+  #scrollToTop {
+    background: #9cafaa url(./assets/svg/arrow-up.svg) no-repeat 50%;
+    height: 44px;
+    width: 44px;
+    border-radius: 8px;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 1200px) {
