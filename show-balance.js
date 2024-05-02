@@ -24,17 +24,17 @@ window.onload = function () {
 };
 
 document.getElementById("currentMonth").addEventListener("click", function () {
-  document.getElementById("changePeriod").innerHTML = "Current month";
+  document.getElementById("changePeriod").innerHTML = "current month";
 });
 
 document.getElementById("previousMonth").addEventListener("click", function () {
-  document.getElementById("changePeriod").innerHTML = "Previous month";
+  document.getElementById("changePeriod").innerHTML = "previous month";
 });
 
 document.getElementById("currentYear").addEventListener("click", function () {
-  document.getElementById("changePeriod").innerHTML = "Current year";
+  document.getElementById("changePeriod").innerHTML = "current year";
 });
 
 document.getElementById("customPeriod").addEventListener("click", function () {
-  document.getElementById("changePeriod").innerHTML = "Custom period";
+  document.getElementById("changePeriod").innerHTML = "custom period";
 });
