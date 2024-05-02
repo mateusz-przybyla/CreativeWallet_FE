@@ -1,3 +1,5 @@
+/* Pie chart */
+
 window.onload = function () {
   var chart = new CanvasJS.Chart("chartContainer", {
     animationEnabled: true,
@@ -23,6 +25,8 @@ window.onload = function () {
   chart.render();
 };
 
+/* Drop-down button */
+
 document.getElementById("currentMonth").addEventListener("click", function () {
   document.getElementById("changePeriod").innerHTML = "current month";
 });
@@ -38,3 +42,14 @@ document.getElementById("currentYear").addEventListener("click", function () {
 document.getElementById("customPeriod").addEventListener("click", function () {
   document.getElementById("changePeriod").innerHTML = "custom period";
 });
+
+/* Scroll to top button */
+
+const btn = document.getElementById("scrollToTop");
+
+btn.addEventListener("click", () =>
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  })
+);
