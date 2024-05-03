@@ -155,7 +155,7 @@
                           type="date"
                           value=""
                           class="form-control me-1"
-                          id="balanceDate"
+                          id="balanceFromDate"
                         />
                       </div>
                       <div class="col-6">
@@ -164,7 +164,7 @@
                           type="date"
                           value=""
                           class="form-control ms-1"
-                          id="balanceDate"
+                          id="balanceToDate"
                         />
                       </div>
                     </div>
@@ -177,7 +177,14 @@
                     >
                       Close
                     </button>
-                    <button type="button" class="btn btn-primary">Save</button>
+                    <button
+                      type="button"
+                      id="saveBtn"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Save
+                    </button>
                   </div>
                 </div>
               </div>
@@ -185,10 +192,10 @@
             <div class="text-center">
               <div class="d-md-flex justify-content-center">
                 <p class="fs-5 mb-3 pe-2">Balance sheet for the period:</p>
-                <p class="fs-5" id="changePeriod">current month</p>
+                <p class="fs-5 lead" id="changePeriod"></p>
               </div>
 
-              <p class="fs-5" id="showDateRange">01.04.2024 - today</p>
+              <p class="fs-5 lead" id="showDateRange"></p>
             </div>
           </div>
         </section>
@@ -244,19 +251,19 @@
                       <th scope="row">1</th>
                       <td>Salary</td>
                       <td>2024-05-01</td>
-                      <td>500.00</td>
+                      <td>1.00</td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
                       <td>Bank interest</td>
                       <td>2024-05-01</td>
-                      <td>1000.00</td>
+                      <td>1.00</td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
                       <td>Allegro sale</td>
                       <td>2024-05-01</td>
-                      <td>22.50</td>
+                      <td>1.00</td>
                     </tr>
                     <tr>
                       <td colspan="3" class="text-center">Total incomes</td>
