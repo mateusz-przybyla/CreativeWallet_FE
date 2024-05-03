@@ -168,7 +168,17 @@ document.getElementById("currentYear").addEventListener("click", function () {
 });
 
 document.getElementById("customPeriod").addEventListener("click", function () {
-  document.getElementById("changePeriod").innerHTML = "custom period";
+  document.getElementById("saveBtn").addEventListener("click", function () {
+    var fromDate = 0,
+      toDate = 0;
+
+    document.getElementById("changePeriod").innerHTML = "custom period";
+    fromDate = document.getElementById("balanceFromDate").value;
+    toDate = document.getElementById("balanceToDate").value;
+
+    document.getElementById("showDateRange").innerHTML =
+      "(from " + fromDate + " to " + toDate + ")";
+  });
 });
 
 /* Scroll to top button */

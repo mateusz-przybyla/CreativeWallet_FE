@@ -155,7 +155,7 @@
                           type="date"
                           value=""
                           class="form-control me-1"
-                          id="balanceDate"
+                          id="balanceFromDate"
                         />
                       </div>
                       <div class="col-6">
@@ -164,7 +164,7 @@
                           type="date"
                           value=""
                           class="form-control ms-1"
-                          id="balanceDate"
+                          id="balanceToDate"
                         />
                       </div>
                     </div>
@@ -177,7 +177,14 @@
                     >
                       Close
                     </button>
-                    <button type="button" class="btn btn-primary">Save</button>
+                    <button
+                      type="button"
+                      id="saveBtn"
+                      class="btn btn-primary"
+                      data-bs-dismiss="modal"
+                    >
+                      Save
+                    </button>
                   </div>
                 </div>
               </div>
@@ -185,7 +192,7 @@
             <div class="text-center">
               <div class="d-md-flex justify-content-center">
                 <p class="fs-5 mb-3 pe-2">Balance sheet for the period:</p>
-                <p class="fs-5" id="changePeriod"></p>
+                <p class="fs-5 lead" id="changePeriod"></p>
               </div>
 
               <p class="fs-5 lead" id="showDateRange"></p>
